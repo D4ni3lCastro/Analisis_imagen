@@ -5,13 +5,13 @@ import numpy as np
 """import pytesseract
 tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract'"""
 
-imgText="people"
+imgText="mario"
 #Lectura de imagen
-img= cv2.imread(imgText+'.png')
+img= cv2.imread(imgText+'.jpg')
 imshow('Imagen Original',img)
 
 #Imagen escala de grises
-imgGrau= cv2.imread(imgText+'.png',0)
+imgGrau= cv2.imread(imgText+'.jpg',0)
 imshow('Grises',imgGrau)
 
 cv2.waitKey(0)
